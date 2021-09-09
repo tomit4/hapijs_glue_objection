@@ -1,0 +1,30 @@
+{
+  "name": "hapijs_glue_objection",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "glue": "nodemon server",
+    "migrate": "knex migrate:latest",
+    "seed": "knex seed:run"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/glue": "^8.0.0",
+    "@hapi/inert": "^6.0.4",
+    "@hapi/vision": "^6.1.0",
+    "@hapipal/confidence": "^6.0.1",
+    "dotenv": "^10.0.0",
+    "exiting": "^6.0.1",
+    "joi": "^17.4.2",
+    "knex": "^0.95.10",
+    "mysql": "^2.18.1",
+    "nanoid": "^3.1.25",
+    "objection": "^3.0.0-alpha.4"
+  },
+  "devDependencies": {
+    "hapi-swagger": "^14.2.4",
+    "nodemon": "^2.0.12"
+  }
+}
