@@ -43,10 +43,7 @@ module.exports = new Confidence.Store({
       Inert,
       Vision,
       {
-        plugin: "./plugins",
-        routes: {
-          prefix: "/api",
-        },
+        plugin: "./lib",
       },
       {
         plugin: HapiSwagger,
