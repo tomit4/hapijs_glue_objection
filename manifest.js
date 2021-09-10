@@ -4,7 +4,6 @@ const Confidence = require("@hapipal/confidence");
 const Inert = require("@hapi/inert");
 const Vision = require("@hapi/vision");
 const HapiSwagger = require("hapi-swagger");
-// const path = require("path");
 
 module.exports = new Confidence.Store({
   server: {
