@@ -67,11 +67,11 @@
 
 <p style=color:#206557ff>Open up your favorite browser and navigate to one of the three options below to see your data displayed</p>
 
-`http://localhost:3000/usa`
+`http://localhost:3000/api/usa`
 
-`http://localhost:3000/mexico`
+`http://localhost:3000/api/mexico`
 
-`http://localhost:3000/canada`
+`http://localhost:3000/api/canada`
 
 <h5 style=color:#206557ff>A Note on Objection's Models/Relations</h5>
 
