@@ -3,8 +3,6 @@
 const Glue = require("@hapi/glue");
 require("dotenv").config();
 
-const route = require("./routes/routes");
-
 // Confidence requires this ('/', process.env)
 const Manifest = require("./manifest").get("/", process.env);
 
@@ -15,14 +13,6 @@ const startServer = async function () {
     });
 
     await require("exiting").createManager(server).start();
-
-    // server.route(route.getUSA);
-    // server.route(route.getMexico);
-    // server.route(route.getCanada);
-
-    // server.route(route.postNewCity);
-    // server.route(route.deleteCity);
-    // server.route(route.updateCity);
 
     server.events.on("stop", () => {
       console.log("Server Stopped.");
