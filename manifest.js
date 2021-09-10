@@ -28,15 +28,6 @@ module.exports = new Confidence.Store({
         request: ["implementation"],
       },
     },
-    // routes: {
-    //   cors: {
-    //     origin: ["*"],
-    //     additionalHeaders: ["headers"],
-    //   },
-    //   files: {
-    //     relativeTo: path.join(__dirname, "/"),
-    //   },
-    // },
   },
   register: {
     plugins: [
