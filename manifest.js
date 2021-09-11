@@ -34,7 +34,7 @@ module.exports = new Confidence.Store({
       Vision,
       // plugin that takes in a library of all of our custom plugins, looks for index.js in ./lib
       {
-        plugin: "./lib",
+        plugin: "./lib/index",
       },
       {
         plugin: HapiSwagger,
